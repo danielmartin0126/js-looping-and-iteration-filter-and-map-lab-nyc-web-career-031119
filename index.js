@@ -5,5 +5,4 @@ function driversWithRevenueOver(arr, revenue) {
 
 function driverNamesWithRenueOver(arr,revenue) {
     return driversWithRevenueOver(arr, revenue).map(d => d.name);
-
 }
