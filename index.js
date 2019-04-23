@@ -4,5 +4,6 @@ function driversWithRevenueOver(arr, revenue) {
 }
 
 function driverNamesWithRenueOver(arr,revenue) {
-  return arr.filter(function (driver) { return driver["revenue"] > revenue; });
+    return driversWithRevenueOver(arr, revenue).map(d => d.name);
+
 }
